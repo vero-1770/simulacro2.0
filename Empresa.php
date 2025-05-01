@@ -84,6 +84,7 @@ class Empresa {
  El método debe setear los variables instancias de venta que corresponda y retornar el importe final de la
  venta.*/ 
     public function registrarVenta($colCodigosMoto, $objCliente) {
+
         
 
     }
