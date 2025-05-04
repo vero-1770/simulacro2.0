@@ -4,9 +4,7 @@ include_once 'Venta.php';
 
 /* En la clase Empresa:
  4. Redefinir el método _toString para que retorne la información de los atributos de la clase.
- 
- 7. Implementar el método retornarVentasXCliente($tipo,$numDoc) que recibe por parámetro el tipo y
- número de documento de un Cliente y retorna una colección con las ventas realizadas al cliente.*/
+ */
 
 class Empresa {
     private $denominacionEmpresa;
@@ -84,10 +82,18 @@ class Empresa {
  El método debe setear los variables instancias de venta que corresponda y retornar el importe final de la
  venta.*/ 
     public function registrarVenta($colCodigosMoto, $objCliente) {
-
+        foreach($colCodigosMoto as $codigo) {
+            
+        }
         
 
     }
 
+///7. Implementar el método retornarVentasXCliente($tipo,$numDoc) que recibe por parámetro el tipo y
+ //número de documento de un Cliente y retorna una colección con las ventas realizadas al cliente.
+
+    public function retornarVentasxCliente($tipo, $numDoc) {
+
+    }
 }
 ?>
